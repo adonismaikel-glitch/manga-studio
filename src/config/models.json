@@ -1,0 +1,23 @@
+{
+  "root_models_path": "models",
+  "image": {
+    "name": "sd-1.5",
+    "type": "diffusers",
+    "path": "image/sd-1.5"
+  },
+  "asr": {
+    "name": "whisper-small",
+    "type": "whisper",
+    "path": "asr/whisper-small"
+  },
+  "tts": {
+    "name": "coqui-small",
+    "type": "coqui",
+    "path": "tts/coqui-small"
+  },
+  "llm": {
+    "name": "ggml-7b",
+    "type": "ggml",
+    "path": "llm/ggml-7b.bin"
+  }
+}
